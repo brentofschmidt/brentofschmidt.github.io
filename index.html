@@ -4,17 +4,30 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+
+  <!-- meta -->
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+
   <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="icon.png">
 
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- fontawesome -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- base -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
 
-  <meta name="theme-color" content="#fafafa">
+  <!-- page -->
+  <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
@@ -22,12 +35,62 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="wrapper">
+    <nav class="">
+      <div class="row">
+        <div class="col">
+          <a class="logo" href="./">
+            <span class="span-0">John Searles</span>
+            <br>
+            <span class="span-1">Photography</span>
+          </a>
+        </div>
+        <div class="col text-right">
+          <ul class="nav-menu">
+            <li>
+              <a class="" href="./">Portfolio</a>
+            </li>
+            <li>
+              <a class="" href="./">About</a>
+            </li>
+            <li>
+              <a class="" href="./">Contact</a>
+            </li>
+            <li class="social-media">
+              <a class="" href="./">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="social-media">
+              <a class="" href="./">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="main-image-wrapper">
+        <div id="main-img" class="main-image"/>
+      </div>
+    </main>
+  </div>
+
+  <!-- scripts -->
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
+
+  <!-- bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/e19910191d.js" crossorigin="anonymous"></script>
+
+  <!-- page -->
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
