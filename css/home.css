@@ -3,10 +3,9 @@
 }
 
 main {
+  position: relative;
   height: 100%;
   width: 100%;
-  background-image: url("../img/john_searles_coast_0.jpg");
-  background-size: cover;
 }
 
 .main-image {
