@@ -1,23 +1,46 @@
-.wrapper {
-  padding: 60px;
-}
-
-main {
+.main-image-container {
   position: relative;
   height: 100%;
   width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
-.main-image {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom :0;
-  left: 0;
-  background-image: url("../img/john_searles_coast_0.jpg");
-  background-repeat: no-repeat;
-  background-size: 120% 120%;
-  background-position: 50% 50%;
-  z-index: -1;
-  filter: grayscale(100%);
+.main-image-container img {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+}
+
+.portfolio-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.portfolio-container .image-container {
+  position: relative;
+  float: left;
+  width: 49.5%;
+  margin-bottom: 1.5%;
+}
+
+.portfolio-container .image-container:nth-last-child(1),
+.portfolio-container .image-container:nth-last-child(2)
+{
+  margin-bottom: 0;
+}
+
+.portfolio-container .image-container:nth-child(odd) {
+  margin-right: 1%;
+}
+
+.portfolio-container .image-container img {
+  position: relative;
+  width: 100%;
 }

@@ -1,0 +1,22 @@
+.about-container {
+  position: relative;
+  float: left;
+  width: 50%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about-container p {
+  width: 100%;
+  max-width: 400px;
+}
+
+.image-container {
+  position: relative;
+  float: left;
+  width: 50%;
+  margin-top: 60px;
+}
+
+.image-container img {
+  width: 100%;
+}
