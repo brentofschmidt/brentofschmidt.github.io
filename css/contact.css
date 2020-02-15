@@ -1,4 +1,33 @@
+.contact-form-container-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
 .contact-form-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   max-width: 600px;
+  height: 600px;
   margin: auto;
+  color: white;
+}
+
+.contact-form-container h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.contact-form-container-wrapper .background-image-container {
+  background-image: url("../img/john_searles_coast_0.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
 }
